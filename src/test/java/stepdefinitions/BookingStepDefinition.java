@@ -62,6 +62,7 @@ public class BookingStepDefinition extends TestBase
             executor.executeScript("arguments[0].click();", SignUp.initiate(testBase.driver).SignUpBtn);
             testBase.pause();
             Logout.initiate(testBase.driver).LogOut.click();
+            testBase.pause();
 
         }
 
